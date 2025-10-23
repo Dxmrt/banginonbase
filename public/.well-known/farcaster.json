@@ -1,0 +1,42 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "baseBuilder": {
+    "allowedAddresses": [
+      "0x0000000000000000000000000000000000000000"
+    ]
+  },
+  "frame": {
+    "version": "1",
+    "name": "Bangin on Base",
+    "homeUrl": "https://your-domain.vercel.app",
+    "iconUrl": "https://your-domain.vercel.app/icon.png",
+    "splashImageUrl": "https://your-domain.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "subtitle": "Daily music quiz",
+    "description": "Guess the song, earn points. Built for Base + Farcaster.",
+    "screenshotUrls": [
+      "https://your-domain.vercel.app/screenshot-portrait.png"
+    ],
+    "primaryCategory": "music",
+    "tags": [
+      "music",
+      "quiz",
+      "game",
+      "base",
+      "farcaster"
+    ],
+    "heroImageUrl": "https://your-domain.vercel.app/og.png",
+    "tagline": "Can you guess today\u2019s track?",
+    "ogTitle": "Bangin\u2019 on Base",
+    "ogDescription": "A tiny daily music quiz for Base + Farcaster.",
+    "ogImageUrl": "https://your-domain.vercel.app/og.png",
+    "requiredChains": [
+      "eip155:84532"
+    ],
+    "noindex": true
+  }
+}
