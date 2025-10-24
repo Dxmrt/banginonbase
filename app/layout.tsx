@@ -8,10 +8,31 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Bangin' on Base",
     description: "Daily music quiz on Base",
+    openGraph: {
+      title: "Bangin' on Base",
+      description: "Guess the daily song, earn onchain points, and climb the leaderboard!",
+      url: "https://banginonbase.vercel.app/",
+      images: [
+        {
+          url: "https://banginonbase.vercel.app/og.png",
+          width: 1200,
+          height: 630,
+          alt: "Bangin' on Base preview",
+        },
+      ],
+      siteName: "Bangin' on Base",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Bangin' on Base",
+      description: "Guess the daily song, earn onchain points, and climb the leaderboard!",
+      images: ["https://banginonbase.vercel.app/og.png"],
+    },
     other: {
       "fc:miniapp": JSON.stringify({
         version: "1",
-        imageUrl: "/og.png",
+        imageUrl: "https://banginonbase.vercel.app/og.png",
         button: {
           title: "Launch Bangin' on Base",
           action: {
