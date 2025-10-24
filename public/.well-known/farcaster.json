@@ -4,22 +4,22 @@
     "payload": "",
     "signature": ""
   },
-  "baseBuilder": {
+ "baseBuilder": {
     "allowedAddresses": [
-      "0x0000000000000000000000000000000000000000"
+      "0x8a8ADF278DcEF4A1Ed926cc52D5361F70aA5De0e"
     ]
   },
   "frame": {
     "version": "1",
-    "name": "Bangin on Base",
-    "homeUrl": "https://your-domain.vercel.app",
-    "iconUrl": "https://your-domain.vercel.app/icon.png",
-    "splashImageUrl": "https://your-domain.vercel.app/splash.png",
+    "name": "Bangin' on Base",
+    "homeUrl": "https://banginonbase.vercel.app/",
+    "iconUrl": "https://banginonbase.vercel.app/icon.png",
+    "splashImageUrl": "https://banginonbase.vercel.app/splash.png",
     "splashBackgroundColor": "#000000",
     "subtitle": "Daily music quiz",
-    "description": "Guess the song, earn points. Built for Base + Farcaster.",
+    "description": "Guess the song, earn points. Built for Base and Farcaster.",
     "screenshotUrls": [
-      "https://your-domain.vercel.app/screenshot-portrait.png"
+      "https://banginonbase.vercel.app/screenshot-portrait.png"
     ],
     "primaryCategory": "music",
     "tags": [
@@ -29,11 +29,11 @@
       "base",
       "farcaster"
     ],
-    "heroImageUrl": "https://your-domain.vercel.app/og.png",
-    "tagline": "Can you guess today\u2019s track?",
-    "ogTitle": "Bangin\u2019 on Base",
-    "ogDescription": "A tiny daily music quiz for Base + Farcaster.",
-    "ogImageUrl": "https://your-domain.vercel.app/og.png",
+    "heroImageUrl": "https://banginonbase.vercel.app/og.png",
+    "tagline": "Can you guess today's track?",
+    "ogTitle": "Bangin' on Base",
+    "ogDescription": "A tiny daily music quiz for Base and Farcaster.",
+    "ogImageUrl": "https://banginonbase.vercel.app/og.png",
     "requiredChains": [
       "eip155:84532"
     ],
