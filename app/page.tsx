@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { sdk } from '@farcaster/miniapp-sdk';
 import { CassettePlayer } from '@/components/CassettePlayer';
 import { Leaderboard } from '@/components/Leaderboard';
 import { ResultModal } from '@/components/ResultModal';
@@ -11,6 +12,21 @@ import type { GuessResult } from '@/types/game';
 export default function BanginOnBasePage() {
   const [guessResult, setGuessResult] = useState<GuessResult | null>(null);
   const [showResultModal, setShowResultModal] = useState<boolean>(false);
+
+  // Initialize Farcaster Mini App SDK
+  useEffect(() => {
+    const initMiniApp = async () => {
+      try {
+        // Tell Farcaster the app is ready to display
+        await sdk.actions.ready();
+        console.log('Farcaster Mini App ready');
+      } catch (error) {
+        console.error('Failed to initialize Farcaster Mini App:', error);
+      }
+    };
+    
+    initMiniApp();
+  }, []);
 
   const handleGuessResult = (result: GuessResult): void => {
     setGuessResult(result);
