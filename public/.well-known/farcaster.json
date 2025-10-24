@@ -1,42 +1,40 @@
 {
-  "accountAssociation": {
-    "header": "",
-    "payload": "",
-    "signature": ""
-  },
- "baseBuilder": {
+  "baseBuilder": {
     "allowedAddresses": [
       "0x8a8ADF278DcEF4A1Ed926cc52D5361F70aA5De0e"
     ]
   },
   "frame": {
-    "version": "1",
     "name": "Bangin' on Base",
-    "homeUrl": "https://banginonbase.vercel.app/",
+    "version": "1",
     "iconUrl": "https://banginonbase.vercel.app/icon.png",
+    "homeUrl": "https://banginonbase.vercel.app/",
+    "imageUrl": "https://banginonbase.vercel.app/image.png",
+    "buttonTitle": "Launch Bangin' on Base!",
     "splashImageUrl": "https://banginonbase.vercel.app/splash.png",
     "splashBackgroundColor": "#000000",
-    "subtitle": "Daily music quiz",
-    "description": "Guess the song, earn points. Built for Base and Farcaster.",
+    "webhookUrl": "https://banginonbase.vercel.app/api/webhook",
+    "subtitle": "Play. Guess. Bang on Base.",
+    "description": "Guess the song, earn points and compete with your friends!",
     "screenshotUrls": [
       "https://banginonbase.vercel.app/screenshot-portrait.png"
     ],
-    "primaryCategory": "music",
+    "primaryCategory": "games",
     "tags": [
       "music",
       "quiz",
-      "game",
       "base",
-      "farcaster"
+      "game"
     ],
     "heroImageUrl": "https://banginonbase.vercel.app/og.png",
-    "tagline": "Can you guess today's track?",
+    "tagline": "Play. Guess. Bang on Base.",
     "ogTitle": "Bangin' on Base",
-    "ogDescription": "A tiny daily music quiz for Base and Farcaster.",
-    "ogImageUrl": "https://banginonbase.vercel.app/og.png",
-    "requiredChains": [
-      "eip155:84532"
-    ],
-    "noindex": true
+    "ogDescription": "Guess the daily song, earn onchain points, and climb the leaderboard!",
+    "ogImageUrl": "https://banginonbase.vercel.app/og.png"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjExMDE1ODIsInR5cGUiOiJhdXRoIiwia2V5IjoiMHgzZjlCODczYUM0MUUzMzA1NGU2YUY1NTIyMWFBMGU1YUZmOGQ3MkVDIn0",
+    "payload": "eyJkb21haW4iOiJiYW5naW5vbmJhc2UudmVyY2VsLmFwcCJ9",
+    "signature": "0szyKzRq2LdtCxr3HUpbbgen7TcogoUfdq01vhCOLVg7cHahkipXjNgEaf0DFdJwyMCLm9uKDOdBhdyGup940Bs="
   }
 }
