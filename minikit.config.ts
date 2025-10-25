@@ -4,38 +4,46 @@ const ROOT_URL =
   "http://localhost:3000";
 
 /**
- * MiniApp configuration object. Must follow the mini app manifest specification.
- *
- * @see {@link https://docs.base.org/mini-apps/features/manifest}
+ * MiniApp configuration object. Mirrors farcaster.json manifest.
+ * Keep this in sync with public/.well-known/farcaster.json
  */
 export const minikitConfig = {
   accountAssociation: {
-    header: "",
-    payload: "",
-    signature: "",
+    header:
+      "eyJmaWQiOjExMDE1ODIsInR5cGUiOiJhdXRoIiwia2V5IjoiMHgzZjlCODczYUM0MUUzMzA1NGU2YUY1NTIyMWFBMGU1YUZmOGQ3MkVDIn0",
+    payload: "eyJkb21haW4iOiJiYW5naW5vbmJhc2UudmVyY2VsLmFwcCJ9",
+    signature:
+      "0szyKzRq2LdtCxr3HUpbbgen7TcogoUfdq01vhCOLVg7cHahkipXjNgEaf0DFdJwyMCLm9uKDOdBhdyGup940Bs=",
   },
   baseBuilder: {
-    allowedAddresses: [],
+    allowedAddresses: ["0x8a8ADF278DcEF4A1Ed926cc52D5361F70aA5De0e"],
   },
   miniapp: {
+    // === frame fields ===
     version: "1",
     name: "Bangin' on Base",
-    subtitle: "Daily music quiz",
-    description: "Guess the song, earn points. Built for Base + Farcaster.",
-    screenshotUrls: [`${ROOT_URL}/screenshot-portrait.png`],
+    subtitle: "Play. Guess. Bang on Base.",
+    description: "Guess the song, earn points and compete with your friends!",
     iconUrl: `${ROOT_URL}/icon.png`,
+    homeUrl: ROOT_URL,
+    imageUrl: `${ROOT_URL}/og.png`,
+    buttonTitle: "Launch Bangin' on Base!",
     splashImageUrl: `${ROOT_URL}/splash.png`,
     splashBackgroundColor: "#000000",
-    homeUrl: ROOT_URL,
     webhookUrl: `${ROOT_URL}/api/webhook`,
-    primaryCategory: "music",
-    tags: ["music","quiz","game","base","farcaster"],
+    screenshotUrls: [`${ROOT_URL}/screenshot-portrait.png`],
+    primaryCategory: "games",
+    tags: ["music", "quiz", "base", "game"],
     heroImageUrl: `${ROOT_URL}/og.png`,
-    tagline: "Can you guess today's track?",
+    tagline: "Play. Guess. Bang on Base.",
     ogTitle: "Bangin' on Base",
-    ogDescription: "A tiny daily music quiz for Base + Farcaster.",
+    ogDescription:
+      "Guess the daily song, earn onchain points, and climb the leaderboard!",
     ogImageUrl: `${ROOT_URL}/og.png`,
-    requiredChains: ["eip155:84532"], // Base Sepolia by default; switch to eip155:8453 for mainnet
-    noindex: true,
+
+   
+    requiredChains: ["eip155:84532"], 
+
+    noindex: false,
   },
 } as const;
