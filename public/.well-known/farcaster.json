@@ -1,6 +1,6 @@
 {
   "baseBuilder": {
-    "allowedAddresses": [
+    "ownerAddress":  [
       "0x8a8ADF278DcEF4A1Ed926cc52D5361F70aA5De0e"
     ]
   },
