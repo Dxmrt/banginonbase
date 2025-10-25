@@ -72,7 +72,7 @@ export default function BanginOnBasePage() {
               />
             </div>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-3 sm:mb-4 font-mono px-2">
-              🎵 Daily 80s Music Guessing Game 🎵
+              Daily 80s Music Guessing Game 🎵
             </p>
             <p className="text-sm sm:text-base text-gray-400 mb-4 sm:mb-6 max-w-2xl mx-auto px-2 leading-relaxed">
               Guess today's retro hit using emoji, lyric, and trivia clues! 

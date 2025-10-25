@@ -75,7 +75,7 @@ export function Leaderboard() {
           {/* Header */}
           <div className="text-center mb-6">
             <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">
-              🏆 LEADERBOARD 🏆
+               LEADERBOARD 
             </h2>
             <p className="text-gray-400 text-sm font-mono">
               Top players on Base • Updated live
