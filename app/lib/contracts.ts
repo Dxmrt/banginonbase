@@ -70,7 +70,7 @@ export const BANGINONBASE_CONTRACT_ABI = [
 export const BANGINONBASE_CONTRACT_CONFIG = {
   // This would be the deployed contract address on Base Mainnet
   // For now, we'll use a placeholder - in production, this would be the real deployed address
-  address: '0x1234567890123456789012345678901234567890' as Address,
+  address: '0x3f9B873aC41E33054e6aF55221aA0e5aFf8d72EC' as Address,
   abi: BANGINONBASE_CONTRACT_ABI,
   chainId: 8453, // Base Mainnet
 } as const;
