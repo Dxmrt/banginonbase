@@ -30,6 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
       images: ["https://banginonbase.vercel.app/og.png"],
     },
     other: {
+      "base:app_id": "693a0c118a7c4e55fec73d55",
       "fc:miniapp": JSON.stringify({
         version: "1",
         imageUrl: "https://banginonbase.vercel.app/og.png",
